@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+	<script type="text/javascript">
+		var animal = {eats: true};
+		var rabbit = {runs: true};
+		rabbit.__proto__ = animal;
+		alert(rabbit.runs);
+		alert(rabbit.eats);
+	</script>
+	</body>
+</html>
